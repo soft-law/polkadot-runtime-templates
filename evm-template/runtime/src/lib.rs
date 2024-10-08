@@ -218,6 +218,7 @@ construct_runtime!(
         EVM: pallet_evm = 41,
         BaseFee: pallet_base_fee = 42,
         EVMChainId: pallet_evm_chain_id = 43,
+        Erc20XcmBridge: pallet_erc20_xcm_bridge::{Pallet} = 44,
     }
 );
 

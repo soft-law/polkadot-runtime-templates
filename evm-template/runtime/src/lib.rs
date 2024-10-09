@@ -212,6 +212,8 @@ construct_runtime!(
         PolkadotXcm: pallet_xcm = 31,
         CumulusXcm: cumulus_pallet_xcm = 32,
         MessageQueue: pallet_message_queue = 33,
+        XTokens: orml_xtokens::{Pallet, Call, Storage, Event<T>} = 34,
+        XcmWeightTrader: pallet_xcm_weight_trader::{Pallet, Call, Storage, Event<T>} = 35,
 
         // EVM
         Ethereum: pallet_ethereum = 40,
